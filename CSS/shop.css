@@ -1,0 +1,38 @@
+img{
+    max-width: 100%;
+}
+div{
+    width: 30%;
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border: 2px solid cadetblue;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px cadetblue;
+    transition: all 100ms;
+    text-align: center;
+}
+div:hover{
+    transform: scaleY(120%);
+    background-color: burlywood;
+    font-style:oblique;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: blue;
+    transition: all 100ms;
+    text-align: center ;
+}
+a:hover{
+    color: slategrey;
+}
+p{
+    font-size: x-large;
+}
