@@ -1,0 +1,77 @@
+img{
+    max-width: 100%;
+
+}
+div{/* cấu trúc của các lệnh */
+    width: calc(33% - 30px) ; /* kích thước khối */
+    float: left; /* bắt đầu từ lề trái */
+    margin: 5px 10px 15px 20px;/* khoảng cách theo chiều kim đồng hồ theo thứ tự bên dưới*/
+    /* margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;*/
+    padding: 15px;/* giãn lề*/
+   /*  padding-top:  15px;
+       padding-right:  15px;
+       padding-bottom:  15px;
+       padding-left:  15px;
+   */
+    background-color: cadetblue;
+    box-sizing: border-box; /* làm cho khối giữ nguyên diện tích */
+    border: 1px solid aqua;/* solid (nét liền), dotted(nét đứt), dashed(viền chấm)*/
+    /* border-top:  15px;
+       border-right:  15px;
+       border-bottom:  15px;
+       border-left:  15px;
+     */
+    border-radius: 6px;/* cắt góc nhọn thành tròn */
+    box-shadow: 0px 0px 5px cadetblue;/* viền bóng*/
+   /* transform: rotate(45deg);/*thay đổi góc nhìn */
+   /* transform: scale(0.5);*/
+    transition: all 100ms;
+}
+div:hover{
+    transform:rotate(15deg);/*chuyển trạng thái của 1 phần tử(deg: độ)*/
+    background-color: olive;
+    /* display:none; */
+}
+a{
+    text-decoration: none;
+    transition: all 100ms;
+
+}
+a:hover{
+    color: slategrey;
+}
+/* thứ tự ưu tiên */
+#box-s{
+    background-color: aqua;
+}
+.box-c{
+    background-color: brown;
+}
+.box-p.box-c{
+    color: fuchsia;
+}
+.box-c h2{/* những h2 nằm trong box-c */
+    text-transform: uppercase;
+}
+.box-demo #demo{
+
+}
+.box-demo .ph{
+    color: blue;
+}
+.ph{
+    color: red;
+}
+div p{/*cấp độ ưu tiên cao hơn p*/
+    color: darkgreen;
+}
+p{
+    color: blueviolet !important;/* !important ( ưu tiên cao nhất )*/
+}
+p{
+    color: darkred;
+}
+/* tag-> parent -> class -> parent class -> id -> parent id*/
