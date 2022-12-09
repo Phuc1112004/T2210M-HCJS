@@ -42,3 +42,7 @@ button{
     width: 250px;
     background-color:darkmagenta ;
 }
+label{
+    color: slategrey;
+}
+
