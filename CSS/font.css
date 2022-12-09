@@ -34,3 +34,11 @@ body{
     overflow: hidden;
 
 }
+a{
+    transform: none;
+    color: cornflowerblue;
+}
+button{
+    width: 250px;
+    background-color:darkmagenta ;
+}
